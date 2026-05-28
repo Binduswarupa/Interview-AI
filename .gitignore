@@ -1,0 +1,29 @@
+# Virtual environment
+backend/venv/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+backend/__pycache__/
+
+# Environment files
+.env
+backend/.env
+
+# Databases and backups
+*.db
+*.bak
+backend/history.db
+backend/history.json.bak
+
+# VS Code settings
+.vscode/
+
+# Temporary / Lock files
+~$*
+.DS_Store
